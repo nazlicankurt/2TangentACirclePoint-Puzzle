@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8e02bee4-f7dc-43f9-b764-63f4bf0cf990": {
+      "ProjectGuid": "8e02bee4-f7dc-43f9-b764-63f4bf0cf990",
+      "DisplayName": "CirclePuzzle",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

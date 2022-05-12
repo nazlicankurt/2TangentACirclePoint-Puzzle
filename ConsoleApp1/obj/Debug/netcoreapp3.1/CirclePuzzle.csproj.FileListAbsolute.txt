@@ -1,0 +1,14 @@
+C:\Users\kurtn\source\repos\CirclePositionRadiusPuzzle\ConsoleApp1\bin\Debug\netcoreapp3.1\CirclePuzzle.exe
+C:\Users\kurtn\source\repos\CirclePositionRadiusPuzzle\ConsoleApp1\bin\Debug\netcoreapp3.1\CirclePuzzle.deps.json
+C:\Users\kurtn\source\repos\CirclePositionRadiusPuzzle\ConsoleApp1\bin\Debug\netcoreapp3.1\CirclePuzzle.runtimeconfig.json
+C:\Users\kurtn\source\repos\CirclePositionRadiusPuzzle\ConsoleApp1\bin\Debug\netcoreapp3.1\CirclePuzzle.runtimeconfig.dev.json
+C:\Users\kurtn\source\repos\CirclePositionRadiusPuzzle\ConsoleApp1\bin\Debug\netcoreapp3.1\CirclePuzzle.dll
+C:\Users\kurtn\source\repos\CirclePositionRadiusPuzzle\ConsoleApp1\bin\Debug\netcoreapp3.1\CirclePuzzle.pdb
+C:\Users\kurtn\source\repos\CirclePositionRadiusPuzzle\ConsoleApp1\obj\Debug\netcoreapp3.1\CirclePuzzle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kurtn\source\repos\CirclePositionRadiusPuzzle\ConsoleApp1\obj\Debug\netcoreapp3.1\CirclePuzzle.AssemblyInfoInputs.cache
+C:\Users\kurtn\source\repos\CirclePositionRadiusPuzzle\ConsoleApp1\obj\Debug\netcoreapp3.1\CirclePuzzle.AssemblyInfo.cs
+C:\Users\kurtn\source\repos\CirclePositionRadiusPuzzle\ConsoleApp1\obj\Debug\netcoreapp3.1\CirclePuzzle.csproj.CoreCompileInputs.cache
+C:\Users\kurtn\source\repos\CirclePositionRadiusPuzzle\ConsoleApp1\obj\Debug\netcoreapp3.1\CirclePuzzle.dll
+C:\Users\kurtn\source\repos\CirclePositionRadiusPuzzle\ConsoleApp1\obj\Debug\netcoreapp3.1\CirclePuzzle.pdb
+C:\Users\kurtn\source\repos\CirclePositionRadiusPuzzle\ConsoleApp1\obj\Debug\netcoreapp3.1\CirclePuzzle.genruntimeconfig.cache
+C:\Users\kurtn\source\repos\CirclePositionRadiusPuzzle\ConsoleApp1\obj\Debug\netcoreapp3.1\CirclePuzzle.csproj.AssemblyReference.cache
