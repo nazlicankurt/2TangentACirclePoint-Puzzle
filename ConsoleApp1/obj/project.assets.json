@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kurtn\\source\\repos\\CirclePositionRadiusPuzzle\\ConsoleApp1\\CirclePuzzle.csproj",
+      "projectUniqueName": "C:\\Users\\kurtn\\Documents\\GitHub\\2TangentACirclePoint-Puzzle\\ConsoleApp1\\CirclePuzzle.csproj",
       "projectName": "CirclePuzzle",
-      "projectPath": "C:\\Users\\kurtn\\source\\repos\\CirclePositionRadiusPuzzle\\ConsoleApp1\\CirclePuzzle.csproj",
+      "projectPath": "C:\\Users\\kurtn\\Documents\\GitHub\\2TangentACirclePoint-Puzzle\\ConsoleApp1\\CirclePuzzle.csproj",
       "packagesPath": "C:\\Users\\kurtn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kurtn\\source\\repos\\CirclePositionRadiusPuzzle\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\kurtn\\Documents\\GitHub\\2TangentACirclePoint-Puzzle\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kurtn\\AppData\\Roaming\\NuGet\\NuGet.Config",

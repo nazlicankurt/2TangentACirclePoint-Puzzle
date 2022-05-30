@@ -7,19 +7,19 @@ namespace CirclePuzzle
         private static float Tangent1(float xVal)
         {
             //y = a * x + b, in example, a = 1/3f, x = xVal, and b = 0;
-            return 1f / 3f * xVal;
+            return 1 / 3f * xVal;
         }
 
         private static float Tangent2(float xVal)
         {
-            return 4f / 3f * xVal;
+            return -1 / 3f * xVal;
         }
 
         public static void Main(string[] args)
         {
             //give the points
-            const float pointX = 3f;
-            const float pointY = 2f;
+            const float pointX = 5f;
+            const float pointY = 0f;
 
             Point point = new Point(pointX, pointY);
             Circle foundCircle = FindCircle(Tangent1, Tangent2, point);
@@ -27,7 +27,7 @@ namespace CirclePuzzle
             if (foundCircle == null)
             {
                 //Special case should be specified here and should be exception cases!!
-                Console.Write("Circle not found(special case or parallel lines");
+                throw new InvalidOperationException("Circle not found(special case or parallel lines");
             }
             else
             {
@@ -82,8 +82,8 @@ namespace CirclePuzzle
             float discriminant = b * b - 4 * a * c;
             if (discriminant < 0f)
             {
-                Console.Write("There are no answers"); //should be add error handling
-                return null;
+                //should be add error handling
+                throw new InvalidOperationException("It can not be less than zero");
             }
 
             float centerX = (-b + (float)Math.Sqrt(discriminant)) / (2f * a);
@@ -137,13 +137,15 @@ namespace CirclePuzzle
             if (Math.Abs(tangentCoefficientsMultiple - 1f) < 0.001f)
             {
                 //Specific case : tg is undefined should use error handling
-                return null;
+                throw new InvalidOperationException("Tangent is undefined");
             }
 
             //tan(a+ß) = tana +tanß /1-tana+tanß
             float sumTangentCoefficient = (firstCoefficients.a + secondCoefficients.a) / (1f - tangentCoefficientsMultiple);
             float sumAngle = (float)Math.Atan(sumTangentCoefficient);
-            float bisectorTangentCoefficient = (float)((1f - Math.Cos(sumAngle)) / Math.Sin(sumAngle));
+            bool isAngleApproximateZero = Math.Equals(sumAngle, 0f);
+            float bisectorTangentCoefficient = (float)((!isAngleApproximateZero) ? (1f - Math.Cos(sumAngle)) / Math.Sin(sumAngle) : 0f);
+
 
             float b = crossPoint.y - bisectorTangentCoefficient * crossPoint.x;
 
